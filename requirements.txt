@@ -1,7 +1,7 @@
 streamlit
 pandas
-numpy==1.14.5
-scikit-learn==1.2.2
+numpy
+scikit-learn
 imbalanced-learn  # This is the package that provides the `imblearn` module
 seaborn
 xgboost
