@@ -24,8 +24,8 @@ X_smote, y_smote = smote.fit_resample(X, y)
 scaler = MinMaxScaler()
 X_smote = scaler.fit_transform(X_smote)
 
-# Memuat model
-model = pickle.load(open('Model/rf_model.pkl', 'rb'))
+# Membuat model
+model = pickle.load(open('Model/knn_model_normalisasi.pkl', 'rb'))
 
 # Model Evaluation
 y_pred = model.predict(X_smote)
